@@ -1,0 +1,138 @@
+    body{
+    background:#cab485;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    margin: 0px;
+}
+
+.header{
+    background-color: #675c47;
+    margin:10px;
+    height:108;
+}
+.main{
+    display:table-cell;
+    background: #efe5d0 url(photos/background.gif) top left;
+    font-size: 150%;
+    padding: 120px;
+    margin: 0px 360px 10px 10px;
+    width:450px;
+    float:right;
+    vertical-align: top;
+}
+.sidebar{
+    display:table-cell;
+    background: #efe5d0 url(photos/background.gif) bottom right;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+    margin: 42px 15px 10px 10px;
+    position:absolute;
+    top: 145px;
+    right: 0px;
+    width:280px;
+}
+.footer{
+    background-color: #675c47;
+    color:#efe5d0;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    font-size: 90%;
+    clear:right;
+}
+h1 {
+    font-size: 120%;
+    color:#954b4b;
+}
+.slogan{
+    color: #954b4b;
+}
+.beanheding {
+    text-align: center;
+    line-height: 1.8em;
+}
+a:link{
+    color: #b76666;
+    text-decoration: none;
+    border-bottom: thin dotted #b76666;
+}
+a:visited{
+    color:#675c47;
+    text-decoration: none;
+    border-bottom: thin dotted #675c47;
+}
+.allcontent{
+ width: 800px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ background-color: #675c47;
+ margin-left: auto;
+ margin-right: auto;
+}
+div.tableContainer{
+    display: table;
+    border-spacing: 10px;
+}
+div.tableRow{
+    display: table-row;
+}
+.premio{
+    position: absolute;
+    top: 30px;
+    left: 365px;
+}
+.headerSlogan{
+    float:right;
+    
+}
+.drinks{
+    display:table-cell;
+    background: #efe5d0 url(photos/background.gif) top left;
+    padding-right: 20px;
+    padding-bottom: 200px;
+    padding-left: 20px;
+    margin-left: 20px;
+    text-align: center;
+    width:200px;
+    float:left;
+         
+}
+.cupon{
+    position: fixed;
+    top: 350px;
+    left: 0px;
+
+}
+.cupon a img{
+    border:none;
+}
+.blog{
+    margin: 0px 330px 10px 10px;
+    width:420px;
+    float:center;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+nav{
+    background-color: #efe5d0;
+    margin: 15px 15px 5px 15px;
+}
+nav ul{
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+nav ul li{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited{
+    color:#954b4b;
+    border-bottom: none;
+    font-weight: bold;
+}
+nav ul li.select{
+    background-color: #c8b99c;
+}

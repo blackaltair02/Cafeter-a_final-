@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="Stillos.css">
+        <title> The Starbuzz Bean Machine</title>
+    </head>
+    <body>
+        <h1>The Starbuzz Bean Machine</h1>
+        <h2>Fill out the form below and click <q>order now</q> to order</h2>
+        <form action="https://starbuzzcoffe.com/proceessorder.php" method="post">
+      <div class="tableRow">
+        
+   
+</html>
+<p> 
+    Choose your Beans:
+    <select name="beans">
+        <option value="House Blend"> House Blend</option>
+        <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+        <option value="Guatemala"> Organic Guatemala</option>
+        <option value="Kenya">Kenya</option>
+    </select>
+</p>
+        </div>
+        <div class="tableRow"> 
+<p>
+    Type: <br>
+    <input type="radio" name="beantype" value="Whole">Whole Bean <br>
+    <input type="radio" name="beantype" value="Ground" >Ground 
+</p>
+</div>
+<div class="tableRow">
+<p> 
+    Number of bags: </p>
+    <p><input type="number" name="bags" min="1" max="10">
+</p>
+</div>
+<div class="tableRow label">
+<p>
+    Must arrive by date: <input type="date" name="date">
+</p>
+</div>
+<div class="tableRow">
+<p> 
+    Extras: <br>
+    <input type="checkbox" name="extras[]" value="giftwrap"> Gift Wrap <br>
+    <input type="checkbox" name="extras[]" value="catalog" > 
+    Include Catalog with Order 
+</p>
+</div>
+
+<div class="tableRow">
+    <p class="heading">Ship to: <br>
+        <p></p>
+    </div>
+
+    <div class="tableRow">
+    <p>Name:</p>
+    <p><input type="text" name="name" value="" placeholder="Jesus Aldair"required> </p>
+    </div>
+
+    <div class="tableRow">
+    <p>Adrres:</p> 
+    <p> <input type="text" name="adrres" value="" placeholder="UTMIR" required> </p> 
+    </div>
+
+    <div class="tableRow">
+    <p>City:</p>
+    <p><input type="text" name="city" value="" placeholder="Pachuca" required> </p>
+    </div>
+
+    <div class="tableRow">
+    <p>State: </p>
+    <p> <input type="text" name="state" value="" placeholder="Hidalgo" required> </p>
+    </div>
+    
+    <div class="tableRow">
+    <p>Zip:</p>
+    <p> <input type="text" name="zip" value="" placeholder="42186" required> </p>
+    </div>
+    
+    <div class="tableRow">
+    <p>Phone: <input type="text" name="phone" value="" placeholder="771-184-92-91" required> </p> 
+    </div>
+
+    <div class="tableRow">
+<p>Customer Comments: </p>
+    <p>
+        <textarea name="comments"></textarea>
+</p>
+</div>
+<div class="tableRow">
+<p></p>
+    <p><input type="submit" value="Order Now">
+</p>
+</div>
+    </form>
+</body>
+
